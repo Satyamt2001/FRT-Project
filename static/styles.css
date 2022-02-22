@@ -4,6 +4,7 @@ html{
 }
 
 body{
+	background-image: url(1644125513423.jpg);
 	font-family: Arial, Helvetica,sans-serif;
     text-align: center;
     margin: 0;
@@ -18,7 +19,7 @@ body{
 .container{
     padding: 30px;
 	position: relative;
-	background: linear-gradient(45deg, #96a5c5, #d18f37, #45df1e);
+	background: linear-gradient(45deg, #1a45a1, #14afb4, #11cc6f);
 	background-size: 500% 500%;
 	animation: change-gradient 10s ease-in-out infinite;
 }
@@ -39,14 +40,14 @@ body{
 }
 
 .heading_font{
-        color: #45c561;
+    color: #eb1919;
 	font-family: 'Pacifico', cursive;
 	font-size: 35px;
 	font-weight: normal;
 }
 
 .description p{
-	color: #e71212;
+	color: #2f4a5a;
     font-style: italic;
     font-size: 14px;
     margin: -5px 0 0;
@@ -67,13 +68,13 @@ body{
 
 /* Predict Button */
 .my-cta-button{
-	background: #f9f9f9;
-   	border: 2px solid #000000;
+	background: #49be5c;
+   	border: 2px solid #444343;
     border-radius: 1000px;
-    box-shadow: 3px 3px #8c8c8c;
+    box-shadow: 3px 3px #8e5fda;
 	margin-top: 10px;
     padding: 10px 36px;
-    color: #000000;
+    color: #a87c7c;
     display: inline-block;
    	font: italic bold 20px/1 "Calibri", sans-serif;
     text-align: center;
@@ -90,7 +91,7 @@ body{
 
 /* Contact */
 .contact-icon{
-	color: #ffffff;
+	color: #180909;
 	padding: 7px;
 }
 
@@ -103,7 +104,7 @@ body{
 	flex-shrink: 0;
 	position: relative;
 	padding: 20px;
-	background: linear-gradient(45deg, #1a45a1, #14afb4, #11cc6f);
+	background: linear-gradient(45deg, #89cca3, #14afb4, #11cc6f);
 	background-size: 500% 500%;
 	animation: change-gradient 10s ease-in-out infinite;
 }
@@ -121,18 +122,18 @@ body{
 }
 
 .danger{
-    color: #ff0000;
+    color: #87f124;
 }
 
 .safe{
-    color: green;
+    color: rgb(24, 27, 24);
 }
 
 .gif{
-	width: 25%;
+	width: 30%;
 }
 
 .gif1{
-	width: 35%;
+	width: 30%;
     	margin: 10px 0;
 }
